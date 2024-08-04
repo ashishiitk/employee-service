@@ -15,7 +15,7 @@ services:
     
       
   appservice:
-    build: employee-service
+    image: employee-service:latest
     depends_on:
       - dbservice
     environment:
