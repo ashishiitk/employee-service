@@ -9,7 +9,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - usr_data:/var/lib/mysql
+      - ./data:/var/lib/mysql
     networks:
       - myapp
     
