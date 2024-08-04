@@ -14,7 +14,7 @@ services:
       - myapp
   
   registry-service:
-    image: registry-service
+    image: registry-server
     networks:
       - myapp 
            
